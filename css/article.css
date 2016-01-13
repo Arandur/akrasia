@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#page {
+  max-width: 960px;
+  margin: 0px auto 0px auto;
+}
+
+#toc {
+  float: right;
+  width: 320px;
+  border: double;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 0px 0px 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+header ul {
+  padding-left: 0px;
+}
+
+header li, footer li {
+  display: inline;
+}
+
+header li {
+  float: left;
+  border: double;
+  text-align: center;
+  width: 25%;
+}
+
+footer nav {
+  border: double;
+}
+
+#copyright {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
