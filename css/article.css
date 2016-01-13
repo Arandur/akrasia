@@ -39,6 +39,14 @@ header li {
   width: 25%;
 }
 
+aside ul {
+  list-style-type: none;
+}
+
+.no-indent {
+  padding-left: 0px;
+}
+
 footer nav {
   border: double;
 }
@@ -49,4 +57,10 @@ footer nav {
 
 a {
   text-decoration: none;
+}
+
+a.broken {
+  color: black;
+  pointer-events: none;
+  cursor: default;
 }
